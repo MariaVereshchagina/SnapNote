@@ -1,0 +1,40 @@
+.completed-task-list {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  background: rgba(40, 40, 70, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(130, 170, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.completed-task-list:hover {
+  box-shadow: 0 0 20px rgba(130, 170, 255, 0.5);
+}
+
+@media (max-width: 1199px) {
+  .completed-task-list {
+    padding: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .completed-task-list {
+    padding: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .completed-task-list {
+    padding: 0;
+    background: rgba(40, 40, 70, 0.05);
+    box-shadow: 0 0 8px rgba(130, 170, 255, 0.1);
+  }
+}
+
+@media (max-width: 575px) {
+  .completed-task-list {
+    padding: 0;
+    box-shadow: 0 0 5px rgba(130, 170, 255, 0.05);
+  }
+}

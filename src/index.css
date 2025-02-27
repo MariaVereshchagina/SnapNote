@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Orbitron", sans-serif;
+  background: linear-gradient(45deg, #1e1e2f, #3b3b5e, #2f2f4a);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px;
+  color: #d8dee9;
+  overflow-x: hidden;
+  position: relative;
+}
